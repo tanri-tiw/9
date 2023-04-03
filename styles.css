@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+body
+{   
+    min-height: 5vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+   max-width: 25vw;
+   margin: 0 auto;
+   background-image: url(images/pattern-background-desktop.svg);
+   background-repeat: no-repeat;
+   background-size: 113vw;
+   background-color:  hsl(225, 100%, 94%);
+   font-weight: 500;
+   
+}
+h1,h2{
+    color: hsl(223, 47%, 23%);
+}
+h1{
+    font-weight: 900;
+    padding: 10px 0 15px 0;
+}
+h2{
+    font-weight: 700;
+    font-size: 16px;
+}
+.container{
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 7px 9px 14px -5px rgba(0,0,0,0.42);
+    -webkit-box-shadow: 7px 9px 14px -5px rgba(0,0,0,0.42);
+    -moz-box-shadow: 7px 9px 14px -5px rgba(0,0,0,0.42);
+}
+.illustration-hero{
+    margin: 0;
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.content{
+    padding: 15px 50px;
+    color:  hsl(224, 23%, 55%);
+    font-size: 16px;
+}
+.content p{
+    padding: 0 0 15px 0;
+}
+.ap{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+   min-height: 50px;
+    margin: 10px 0 25px 0;
+   padding: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+.grp{
+    display: flex;
+   margin-top: 5px;
+}
+.grp img{
+    height: 50px;
+}
+.ann{
+    padding-left: 15px;
+}
+.ap a:hover{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+
+}
+
+button{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border: none;
+    width:100% ;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow:0 15px 15px 2px hsl(225, 100%, 94%);
+}
+button:hover{
+    cursor: pointer;
+    background-color: hsl(251, 72%, 59%);
+}
+.cancel
+{
+    margin-top: 25px;
+    font-weight: bold;
+}
+.cancel:hover{
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);
+}
+@media only screen and (max-width: 380px) {
+   body{
+    max-width: 90vw;
+   }
+   .content{
+    padding: 15px 10px;
+   }
+  }
